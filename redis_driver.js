@@ -202,7 +202,7 @@ RedisConnection = function (url, options) {
 
   // Note ==, not ===, so we accept '1' or 1
   var fixConfig = options.configureKeyspaceNotifications == '1';
-  checkConfig(client, fixConfig);
+  //checkConfig(client, fixConfig);
 
 //  MongoDB.connect(url, mongoOptions, Meteor.bindEnvironment(function(err, db) {
 //    if (err)
